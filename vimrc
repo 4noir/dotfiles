@@ -7,5 +7,6 @@ set relativenumber
 set number
 set expandtab
 set shiftwidth=4
+set scrolloff=8
 colorscheme ayu
 let &t_ut=''
