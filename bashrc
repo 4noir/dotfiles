@@ -36,5 +36,5 @@ alias rm='rm -i'
 alias vim='nvim'
 PS1='[\u@\h \W]\$ '
 
-alias tag='~/.scripts/pisc_push.sh'
+alias pisc_push='~/.scripts/pisc_push.sh'
 alias gcc='gcc -o main -pedantic -std=c99 -Wall -Wextra -g -fsanitize=address'
