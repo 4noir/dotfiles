@@ -16,6 +16,7 @@ read -r push
 
 if [ "$push" = "y" ]
 then
+    clang-format -i -- *
     git add .
     git commit
     git tag -a "exercises-$EXERCISE-$VER" -m "$EXERCISE tag v$VER"
