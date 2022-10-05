@@ -1,5 +1,5 @@
 filetype plugin on
-
+set nofixendofline
 source ~/.vim/plugins.vim
 set termguicolors     " enable true colors support
 let ayucolor="dark" " for mirage version of theme
