@@ -8,7 +8,8 @@ then
 fi
 
 
-echo "about to tag exercises-$EXERCISE-$VER and push $(echo *). sure? [y/N]"
+echo "about to tag exercises-$EXERCISE-$VER and push $(echo *)"
+echo "sure? [y/N]"
 
 
 read -r push
