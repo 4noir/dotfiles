@@ -35,6 +35,6 @@ alias grep='grep --color -n'
 alias rm='rm -i'
 alias vim='nvim'
 PS1='[\u@\h \W]\$ '
+export EPIFLAGS='gcc -o main -pedantic -std=c99 -Wall -Wextra -g -fsanitize=address'
 
 alias pisc_push='~/.scripts/pisc_push.sh'
-alias gcc='gcc -o main -pedantic -std=c99 -Wall -Wextra -g -fsanitize=address'
