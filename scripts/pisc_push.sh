@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 EXERCISE=$(basename "$(pwd)")
 VER=1

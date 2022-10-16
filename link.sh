@@ -6,7 +6,7 @@ for f in "$SCRIPT_PATH"/*
 do
     THISCONF=$(basename "$f")
     if [ "$THISCONF" = 'link.sh' ] || [ "$THISCONF" = 'config' ] ||
-        [ "$THISCONF" = 'README.md' ]
+        [ "$THISCONF" = 'README.md' ]]
     then
         continue
     fi
