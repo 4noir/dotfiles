@@ -6,3 +6,5 @@ font:
 
 import:
   - "~/.config/alacritty/dracula.yml"
+  - "~/.config/alacritty/shellconf.yml"
+
