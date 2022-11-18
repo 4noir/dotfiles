@@ -101,3 +101,15 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 alias vim='nvim'
+export LC_ALL=en_US.UTF-8
+
+checkbat()
+{
+    upower -i /org/freedesktop/UPower/devices/battery_macsmc_battery | grep percentage
+}
+
+export GDK_DPI_SCALE=0.75
+alias rofi="rofi -dpi 192"
+
+# powerline-daemon -q
+# . /usr/share/powerline/bindings/zsh/powerline.zsh

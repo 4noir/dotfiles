@@ -2,7 +2,7 @@ env:
   TERM: xterm-256color
 
 font:
-  size: 13
+  size: 10
 
 import:
   - "~/.config/alacritty/dracula.yml"
