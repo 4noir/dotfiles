@@ -83,11 +83,12 @@ source $ZSH/oh-my-zsh.sh
 
 # Preferred editor for local and remote sessions
 # if [[ -n $SSH_CONNECTION ]]; then
-#   export EDITOR='vim'
+#     export EDITOR='nvim'
 # else
-#   export EDITOR='mvim'
+#     export EDITOR='mvim'
 # fi
 
+export EDITOR='nvim'
 # Compilation flags
 # export ARCHFLAGS="-arch x86_64"
 
@@ -101,3 +102,16 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 alias vim='nvim'
+
+epigcc() {
+    gcc -pedantic -std=c99 -Wall -Wextra -Wvla -o main "$@"
+}
+
+export PATH='/opt/jdk-17.0.5+8/bin':"$PATH"
+export PATH="$HOME/.nswrappers:$PATH"
+
+alias ghidra='~/.local/opt/ghidra_10.2.2_PUBLIC/ghidraRun'
+
+export _JAVA_AWT_WM_NONREPARENTING=1
+export PGDATA="$HOME/postgres_data"
+export PGHOST="/tmp"

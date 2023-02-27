@@ -1,8 +1,15 @@
 #!/bin/bash
 
 if [ "$#" -ne 2 ]; then
-    echo "usage: <script> <tp_number> <student>"
+    echo "usage: <script> <activity> <file>"
     exit 1
 fi
 
-git clone git@git.assistants.epita.fr:p/2022/2026-asm-s3-tp"$1"/"$2"-2026-asm-s3-tp"$1".git
+FILE="$2"
+
+while read -r line;
+do
+    if [ "$line" != "" ]; then
+        git clone raphael.leroy@git.forge.epita.fr:p/epita-prepa-asm/"$1"/epita-prepa-asm-"$1"-"$line".git "$line"
+    fi
+done < "$FILE"
