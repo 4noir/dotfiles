@@ -6,6 +6,6 @@ set expandtab
 set number
 set relativenumber
 
-source ~/.nvim/plugins.vim
+runtime plugins.vim
 
 :tnoremap <Esc> <C-\><C-n>

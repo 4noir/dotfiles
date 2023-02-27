@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 SCRIPT=$(realpath "$0")
 SCRIPT_PATH=$(dirname "$SCRIPT")
@@ -6,8 +6,8 @@ SCRIPT_PATH=$(dirname "$SCRIPT")
 for f in "$SCRIPT_PATH"/*
 do
     THISCONF=$(basename "$f")
-    if [ "$THISCONF" = 'link.sh' ] || [ "$THISCONF" = 'config' ] ||
-        [ "$THISCONF" = 'README.md' ]
+    if [[ "$THISCONF" =~ .*\.sh$ ]] || [ "$THISCONF" = 'config' ] ||
+        [ "$THISCONF" = 'README.md' ] || [ "$THISCONF" = 'wallpapers' ]
     then
         continue
     fi
