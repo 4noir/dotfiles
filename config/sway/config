@@ -232,6 +232,8 @@ set $opacity 0.9
 for_window [class=".*"] opacity $opacity
 for_window [app_id=".*"] opacity $opacity
 for_window [class="firefox"] opacity 1
+for_window [class="VSCodium"] opacity 1
+for_window [class="vscodium"] opacity 1
 
 
 # include @sysconfd#f993a8ir@/sway/config.d/*

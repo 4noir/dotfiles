@@ -100,4 +100,8 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
+alias swaylock='swaylock -i "~/afs/media/wallpaper_material/amog.jpg" -s stretch'
 alias vim='nvim'
+export PGDATA="$HOME/postgres_data"
+export PGHOST="/tmp"
+export PATH="$AFS_DIR/.local/bin:$PATH"

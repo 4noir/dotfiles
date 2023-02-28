@@ -7,6 +7,7 @@ Plug 'morhetz/gruvbox'
 Plug 'ayu-theme/ayu-vim'
 Plug 'ryanoasis/vim-devicons'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
+Plug 'pechorin/any-jump.vim'
 Plug 'rhysd/vim-clang-format'
 Plug 'dracula/vim', {'as':'dracula'}
 call plug#end()
