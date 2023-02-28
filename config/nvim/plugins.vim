@@ -10,6 +10,7 @@ autocmd VimEnter * if len(filter(values(g:plugs), '!isdirectory(v:val.dir)'))
             \| endif
 
 call plug#begin()
+Plug 'voldikss/vim-floaterm'
 Plug 'preservim/nerdtree'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
@@ -29,3 +30,4 @@ set termguicolors
 runtime plugconfs/coc-conf.vim
 runtime plugconfs/nerdtree.vim
 runtime plugconfs/airline.vim
+runtime plugconfs/floaterm.vim
