@@ -2,6 +2,9 @@ env:
   TERM: xterm-256color
 
 font:
+  #normal:
+  #  family: Space Mono for Powerline
+  #  style: Regular
   size: 14
 
 import:

@@ -25,8 +25,7 @@ set termguicolors
 " let ayucolor="mirage"
 " colorscheme ayu
  colorscheme dracula
-let g:airline_theme='base16_dracula'
-let g:airline_powerline_fonts = 1
 " let g:airline_theme='ayu_mirage'
 runtime plugconfs/coc-conf.vim
 runtime plugconfs/nerdtree.vim
+runtime plugconfs/airline.vim
